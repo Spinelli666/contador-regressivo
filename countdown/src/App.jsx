@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <div className="App" style={{backgroundImage: `url(${NewYear})`}}>
-        <div className="contianer">
+        <div className="container">
           <Title title="Contagem regressiva para 2025" />
-          <div className="contdown-container">
+          <div className="countdown-container">
             <Counter title="Dias" number={2} />
             <Counter title="Horas" number={2} />
             <Counter title="Minutos" number={2} />
